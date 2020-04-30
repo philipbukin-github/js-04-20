@@ -3,9 +3,10 @@ const goods = [
     { title: 'Socks', price: 50 },
     { title: 'Jacket', price: 200 },
     { title: 'Shoes', price: 300 },
+    {}
 ];
 
-const getGoodsItem = (title, price) => {
+const getGoodsItem = (title = "Товар не найден", price = 0) => {
     return `<div class="goods-item"><h3>${title}</h3><p>${price}</p></div>`;
 };
 
