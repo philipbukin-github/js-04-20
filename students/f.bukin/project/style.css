@@ -27,3 +27,23 @@ header {
     font-size: small;
 
   }
+.basket-goods-list {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px;
+    z-index: 10;
+    width: 200px;
+    background-color: whitesmoke;
+}
+.sum-goods{
+    flex: 200px;
+    border: solid 1px lightgrey;
+    padding: 10px;
+    text-align: center;
+}
+.sum-goods h3::after {
+    content: " RUB";
+    font-size: small;
+
+  }
